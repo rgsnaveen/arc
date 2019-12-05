@@ -1,0 +1,46 @@
+[{
+	"first_name": "James",
+	"last_name": "Butterburg",
+	"address": {
+		"street": "6649 N Blue Gum St",
+		"city": "New Orleans",
+		"state": "LA",
+		"zip": "70116"
+	},
+	"type": "banker",
+	"password": "banker123",
+	"accountNumber": 92382323,
+	"balance": 34567,
+	"branchName": "Madurai",
+	"accountName": "Savings"
+}, {
+	"first_name": "Josephine",
+	"last_name": "Darakjy",
+	"address": {
+		"street": "4 B Blue Ridge Blvd",
+		"city": "Brighton",
+		"state": "MI",
+		"zip": "48116"
+	},
+	"type": "customer",
+	"password": "customer123",
+	"accountNumber": 92382321,
+	"balance": 150000,
+	"branchName": "Chennai",
+	"accountName": "Savings"
+}, {
+	"first_name": "Art",
+	"last_name": "Chemel",
+	"address": {
+		"street": "8 W Cerritos Ave #54",
+		"city": "Bridgeport",
+		"state": "NJ",
+		"zip": "08014"
+	},
+	"type": "customer",
+	"password": "customer123",
+	"accountNumber": 92382322,
+	"balance": 4150000,
+	"branchName": "Madurai",
+	"accountName": "Current"
+}]

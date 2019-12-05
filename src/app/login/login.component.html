@@ -1,0 +1,20 @@
+
+<div class="wrapper fadeInDown">
+  <div id="formContent">
+    <!-- Tabs Titles -->
+
+    <!-- Icon -->
+    <div class="fadeIn first">
+        <h1>ABC Retail Banking Application</h1>
+      <h2>For Customers, Bankers and Investor</h2>
+    </div>
+ {{currentUser | json}}
+    <!-- Login Form -->
+    <form>
+      <input type="text" id="userName" [(ngModel)]="loginData.userName" class="fadeIn second" name="userName" placeholder="User Name">
+      <input type="password" id="password" class="fadeIn third" [(ngModel)]="loginData.password"  name="password" placeholder="Password">
+      <input type="button" (click)="login()"class="fadeIn fourth" value="Log In">
+    </form>
+
+  </div>
+</div>
